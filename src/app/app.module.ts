@@ -13,10 +13,10 @@ import { TodoListItemComponent } from './todo-list-item/todo-list-item.component
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListHeaderComponent,
     TodoListComponent,
-    TodoListItemComponent,
-    TodoListFooterComponent
+    TodoListFooterComponent,
+    TodoListHeaderComponent,
+    TodoListItemComponent
   ],
   imports: [
     BrowserModule,
